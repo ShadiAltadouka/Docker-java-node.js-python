@@ -19,4 +19,4 @@ jobs:
 
             - name: Build Image
               run: docker build -t java:api -f java_api.Dockerfile .
-              working-directory: docker
+              working-directory: java
