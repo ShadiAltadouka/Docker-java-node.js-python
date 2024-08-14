@@ -2,9 +2,9 @@ FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 
-COPY java/pom.xml /app
+COPY pom.xml /app
 
-COPY java/main.java /app/src/main/java/
+COPY main.java /app/src/main/java/
 
 EXPOSE 8080
 
