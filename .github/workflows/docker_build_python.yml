@@ -19,4 +19,4 @@ jobs:
 
             - name: Build Image
                 run: docker build -t python:api -f python_api.Dockerfile .
-              working-directory: docker
+              working-directory: python
