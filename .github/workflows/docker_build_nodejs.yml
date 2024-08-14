@@ -19,4 +19,4 @@ jobs:
 
             - name: Build Image
                 run: docker build -t nodejs:api -f nodejs_api.Dockerfile .
-              working-directory: nodejs
+              working-directory: node.js
